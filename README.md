@@ -1,3 +1,3 @@
 # js-testing
 
-Run npm i and then npm test.
+Run **npm i** and then **npm test**.
