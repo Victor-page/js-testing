@@ -20,9 +20,9 @@ test('should generate a valid text output', () => {
 
 test('should create an element with text and correct class', async () => {
   const browser = await puppeteer.launch({
-    // headless: false,
-    // slowMo: 80,
-    // args: ['--window-size=400,714'],
+    headless: false,
+    slowMo: 80,
+    args: ['--window-size=400,714'],
   });
   const page = await browser.newPage();
   await page.goto(
